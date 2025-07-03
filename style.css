@@ -32,29 +32,35 @@ nav {
     background-color: #04d280; 
 }
 
-header  {
-    font-size: 24px;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    font-family: 'poppins',sans-serif; 
-}
-
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 100px;
+    font-size: 30px;
     
 }
 header nav ul li a:hover {
     color: white;
 }
 
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: #333;
-    font-weight: 600;
+    font-weight: 600;   
 }
 
+#products {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a4fe6f;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
 main {
     text-align: center;
     
@@ -115,3 +121,4 @@ main {
 .thumbnails img:hover {
     transform: scale(1.05);
 }
+
